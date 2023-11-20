@@ -1,0 +1,41 @@
+.navbar {
+  background-color: rgb(57, 99, 65);
+}
+.navbar-nav a {
+  color: white;
+}
+body {
+  background-color: RGBa(218, 215, 205);
+}
+p {
+  font-family: Roboto;
+  line-height: 2;
+  font-size: 17px;
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress {
+  padding: 0;
+  margin: 0 0 6px 0;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.724);
+}
+
+.skills .progress .skill {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: rgb(214, 170, 59);
+}
