@@ -1,17 +1,50 @@
-.navbar {
-  background-color: rgb(57, 99, 65);
+:root {
+  --neon-color: #33b78f;
+  --primary-color:  rgb(218, 215, 205);
 }
-.navbar-nav a {
-  color: white;
-}
+
 body {
-  background-color: RGBa(218, 215, 205);
+  background-color: rgb(218, 215, 205);
+  font-family: poppins;
+
 }
+/* Navbar */
+.navbar {
+  background-color: rgb(62, 112, 72); 
+
+
+} 
+.navbar-nav a {
+  color: var(--primary-color);
+}
+/* Home page */
+.greetings,
+.web-dev {
+  font-size: 40px;
+  font-weight: 600;
+}
+.author {
+  color: var(--neon-color);
+  font-size: 44px;
+  font-weight: 600;
+  font-style: italic;
+}
+span {
+  font-size: 28px;
+  font-weight: 600;
+}
+
 p {
   font-family: Roboto;
   line-height: 2;
-  font-size: 17px;
+  font-size: 20px;
+  text-indent: 40px;
 }
+.social-links a {
+  padding: 15px;
+}
+
+/* skills */
 .skills .progress {
   height: 60px;
   display: block;
