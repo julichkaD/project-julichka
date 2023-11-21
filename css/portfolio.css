@@ -1,16 +1,18 @@
 :root {
   --neon-color: #33b78f;
-  --primary-color:  rgb(218, 215, 205);
+  --primary-color:  rgb(229, 226, 217);
+  --secondary-color:rgb(62, 112, 72);
 }
 
 body {
-  background-color: rgb(218, 215, 205);
-  font-family: poppins;
+  background-color: rgb(229, 226, 217);
+  font-family: "Poppins";
 
 }
 /* Navbar */
 .navbar {
   background-color: rgb(62, 112, 72); 
+
 
 
 } 
@@ -43,27 +45,23 @@ p {
 .social-links a {
   padding: 15px;
 }
-
+#together {
+  color: var(--secondary-color);
+  font-family: sans-serif;
+  font-size: 32px;
+}
 /* skills */
+
 .skills .progress {
-  height: 60px;
+   height: 60px;
   display: block;
   background: none;
-  border-radius: 0;
-}
-
-.skills .progress {
   padding: 0;
   margin: 0 0 6px 0;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: rgba(0, 0, 0, 0.724);
-}
-
-.skills .progress .skill {
-  float: right;
-  font-style: normal;
+  font-family: "Poppins";
+  color: rgb(21, 84, 75)
 }
 
 .skills .progress-bar {
@@ -71,4 +69,47 @@ p {
   height: 10px;
   transition: 0.9s;
   background-color: rgb(214, 170, 59);
+ 
+}
+/* portfolio */
+.portfolio .card{
+ margin: 8px;
+}
+.card-text{
+  font-size: 16px;
+  line-height: normal;
+  text-indent: 0%;
+}
+.btn-success{
+ width: 100%;
+ color: #fff;
+ font-size: larger;
+}
+/* contact */
+.contact {
+  padding-bottom: 130px;
+} 
+a {
+  text-decoration: none;
+  font-size: 26px;
+}
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.437);
+}
+ /* footer */
+#footer {
+  padding: 20px 20px;
+  background-color: var(--secondary-color);
+  color:var(--primary-color);
+  
+}
+@media (max-width: 1199px) {
+  #footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
+  }
 }
