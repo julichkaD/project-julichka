@@ -1,21 +1,17 @@
 :root {
   --neon-color: #33b78f;
-  --primary-color:  rgb(229, 226, 217);
-  --secondary-color:rgb(62, 112, 72);
+  --primary-color: rgb(229, 226, 217);
+  --secondary-color: rgb(62, 112, 72);
 }
 
 body {
   background-color: rgb(229, 226, 217);
   font-family: "Poppins";
-
 }
 /* Navbar */
 .navbar {
-  background-color: rgb(62, 112, 72); 
-
-
-
-} 
+  background-color: rgb(62, 112, 72);
+}
 .navbar-nav a {
   color: var(--primary-color);
 }
@@ -38,9 +34,12 @@ span {
 
 p {
   font-family: Roboto;
-  line-height: 2;
+  line-height: 2.2;
   font-size: 20px;
   text-indent: 40px;
+}
+.home-page {
+  height: 780px;
 }
 .social-links a {
   padding: 15px;
@@ -50,10 +49,14 @@ p {
   font-family: sans-serif;
   font-size: 32px;
 }
+
 /* skills */
+.title {
+  padding-top: 90px;
+}
 
 .skills .progress {
-   height: 60px;
+  height: 60px;
   display: block;
   background: none;
   padding: 0;
@@ -61,7 +64,7 @@ p {
   display: block;
   font-weight: 600;
   font-family: "Poppins";
-  color: rgb(21, 84, 75)
+  color: rgb(21, 84, 75);
 }
 
 .skills .progress-bar {
@@ -69,42 +72,47 @@ p {
   height: 10px;
   transition: 0.9s;
   background-color: rgb(214, 170, 59);
- 
 }
 /* portfolio */
-.portfolio .card{
- margin: 8px;
+.portfolio .card {
+  margin: 4px;
+ }
+ .card-img-top{
+  height: 200px
 }
-.card-text{
-  font-size: 16px;
+.card-text {
+  font-size: 15px;
   line-height: normal;
   text-indent: 0%;
 }
-.btn-success{
- width: 100%;
- color: #fff;
- font-size: larger;
+.btn-success {
+  width: 100%;
+  color: #fff;
+  font-size: larger;
 }
 /* contact */
 .contact {
-  padding-bottom: 130px;
-} 
+  padding-bottom: 30px;
+}
+
 a {
   text-decoration: none;
   font-size: 26px;
 }
 .contact .info {
-  padding: 30px;
+  padding: 20px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.437);
 }
- /* footer */
+.contact-box{
+  height: 500px
+}
+/* footer */
 #footer {
   padding: 20px 20px;
   background-color: var(--secondary-color);
-  color:var(--primary-color);
-  
+  color: var(--primary-color);
 }
 @media (max-width: 1199px) {
   #footer {
