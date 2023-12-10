@@ -16,6 +16,15 @@ body {
   color: var(--primary-color);
 }
 /* Home page */
+.my-pic {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;  
+  max-height: 400px; 
+}
+
 .greetings,
 .web-dev {
   font-size: 40px;
