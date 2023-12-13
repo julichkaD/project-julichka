@@ -21,8 +21,8 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-top: 25px;  
-  max-height: 400px; 
+  margin-top: 25px;
+  max-height: 400px;
 }
 
 .greetings,
@@ -85,9 +85,11 @@ p {
 /* portfolio */
 .portfolio .card {
   margin: 4px;
- }
- .card-img-top{
-  height: 200px
+  height: fit-content;
+}
+.card-img-top {
+  height: 150px;
+  object-fit: contain;
 }
 .card-text {
   font-size: 15px;
@@ -99,6 +101,7 @@ p {
   color: #fff;
   font-size: larger;
 }
+
 /* contact */
 .contact {
   padding-bottom: 30px;
@@ -114,8 +117,8 @@ a {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.437);
 }
-.contact-box{
-  height: 500px
+.contact-box {
+  height: 500px;
 }
 /* footer */
 #footer {
