@@ -27,9 +27,12 @@ body {
 
 .greetings,
 .web-dev {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 600;
 }
+/* #name {
+  font-size: 44px;
+} */
 .author {
   color: var(--neon-color);
   font-size: 44px;
