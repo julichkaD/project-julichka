@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="css/portfolio.css" />
     <meta name="description" content="Julia Drawish is a Web Engineer based in USA, Brooklyn.">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Full-Stack Developer Portfolio-Julia Darwish</title>
 </head>
 
@@ -44,18 +45,19 @@
         <div class="row">
             <div class="col-lg-5 mt-5 d-flex justify-content-center">
                 <img src="./images/project-pics/IMG_6098 (1).jpg"
-                    class="my-pic border border-success border-2 img-fluid img-thumbnail p-2" alt="my picture" width="300"/>
+                    class="my-pic border border-success border-2 img-fluid img-thumbnail p-2" alt="my picture"
+                    width="300" />
             </div>
 
             <div class="col-lg-7 text-center mt-3 pt-5">
                 <h2 class="greetings">Hello World! 🌏</h2>
-                <h1 class="author">I am Julia Darwish</h1>
-                <h2 class="web-dev">Full Stack Web Developer</h2>
+                <h1 class="author" id="name">I am Julia Darwish</h1>
+                <h2 class="web-dev" id="web-dev">Full Stack Web Developer</h2>
                 <br />
                 <div class="info">
-                    <h4><span>Freelance:</span> Available</h4>
-                    <h4><span>Location</span>: Brooklyn, NY, USA</h4>
-                    <h4><span>Degree: </span>Bachelor of Science(GPA 3.9)</h4>
+                    <h4 id="freelance"><span>Freelance:</span> Available</h4>
+                    <h4 id="location"><span>Location</span>: Brooklyn, NY, USA</h4>
+                    <h4 id="degree"><span>Degree: </span>Bachelor of Science(GPA 3.9)</h4>
                 </div>
 
                 <div class="social-links m-5">
@@ -287,10 +289,11 @@
                     <img src="./images/project-pics/portfolio-JD.png" class="card-img-top" alt="my project" />
                     <div class="card-body">
                         <h5 class="card-title text-center text-success fw-bold">
-                         MY PORTFOLIO  
+                            MY PORTFOLIO
                         </h5>
                         <p class="card-text">Project built with HTML, CSS, Bootstrap</p>
-                        <a href="https://github.com/julichkaD/project-julichka.git" class="btn btn-success">Check it out</a>
+                        <a href="https://github.com/julichkaD/project-julichka.git" class="btn btn-success">Check it
+                            out</a>
                     </div>
                 </div>
                 <div class="card pt-2" style="width: 18rem">
@@ -326,10 +329,10 @@
             </div>
         </section>
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
+        <section class="contact">
             <div class="container">
-                <h1 class="author title">
-                    <img src="./images/lion (1).png" alt="lion"/>Contact
+                <h1 class="author title" id="contact">
+                    <img src="./images/lion (1).png" alt="lion" />Contact
                 </h1>
             </div>
             <div class="section-title">
@@ -370,6 +373,7 @@
             </div>
         </section>
     </div>
+    <script src="index.js"></script>
 </body>
 <!-- ======= Footer ======= -->
 <div class="container-fluid" id="footer">
