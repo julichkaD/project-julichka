@@ -85,10 +85,12 @@ p {
 }
 /* portfolio */
 .portfolio .card {
+
   margin: 4px;
   height: fit-content;
 }
 .card-img-top {
+  padding-top: 15px;
   height: 150px;
   object-fit: contain;
 }
