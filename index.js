@@ -3,5 +3,5 @@ new Typewriter("#web-dev", {
   autoStart: true,
   loop: true,
   delay: 160,
-  cursor: "",
+  cursor: "" 
 });
