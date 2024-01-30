@@ -86,8 +86,7 @@ p {
 }
 /* portfolio */
 .portfolio .card {
-
-  margin: 4px;
+  margin: 12px;
   height: fit-content;
 }
 .card-img-top {
