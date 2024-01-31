@@ -40,7 +40,7 @@ body {
 span {
   font-size: 28px;
   font-weight: 600;
-  color:rgb(11, 97, 84)
+  color: rgb(11, 97, 84);
 }
 
 p {
@@ -88,6 +88,7 @@ p {
 .portfolio .card {
   margin: 12px;
   height: fit-content;
+  background-color:beige;
 }
 .card-img-top {
   padding-top: 15px;
@@ -120,7 +121,7 @@ a {
 }
 .contact .info {
   padding: 20px;
-  background: #fff;
+  background-color: rgb(245, 245, 236);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.437);
 }
